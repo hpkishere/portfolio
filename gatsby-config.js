@@ -1,9 +1,18 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
+// in gatsby-config.js
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Hendro | Portfolio`,
+        short_name: `Hendro Portfolio`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#000000`,
+        display: `standalone`,
+        icon: 'src/icon/favicon.png'
+      },
+    },
+    "gatsby-plugin-react-helmet"
+  ],
 }

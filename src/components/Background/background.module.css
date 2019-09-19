@@ -1,0 +1,14 @@
+#backgroundRoot {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../../static/img/09.jpg');
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    margin: 0px;
+    padding: 0px;
+}

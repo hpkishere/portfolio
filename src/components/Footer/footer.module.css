@@ -1,0 +1,11 @@
+#footerContainer {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+}
+
+.icon {
+    font-size: 64px;
+    color: #686868;
+    margin-right: 50px;
+}

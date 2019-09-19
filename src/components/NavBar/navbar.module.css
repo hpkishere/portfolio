@@ -1,0 +1,14 @@
+#rootNavbar {
+    background: transparent!important;
+    padding-top: 30px;
+    padding-right: 50px;
+    height: 15%;
+    width: 100%;
+}
+
+.navLinks {
+    font-family: 'Source Code Pro', monospace!important;
+    color: #686868!important;
+    font-size: 32px;
+    margin-right: 30px;
+}
