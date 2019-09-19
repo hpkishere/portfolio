@@ -38,21 +38,21 @@
 
 @media only screen and (max-width: 767px) {
     .contentContainer h1 {
-        font-size: 52px;
+        font-size: 46px;
     }
 
     .contentContainer p {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
 @media only screen and (max-width: 575px) {
     .contentContainer h1 {
-        font-size: 48px;
+        font-size: 32px;
     }
 
     .contentContainer p {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .contentContainer {

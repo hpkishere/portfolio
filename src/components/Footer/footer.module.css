@@ -9,3 +9,19 @@
     color: #686868;
     margin-right: 50px;
 }
+
+@media only screen and (max-width: 767px) {
+    .icon {
+        font-size: 52px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .icon {
+        font-size: 46px;
+    }
+
+    #footerContainer {
+        right: 0;
+    }
+}
